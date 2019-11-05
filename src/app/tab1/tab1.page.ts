@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Pro, AppInfo, DeployInfo } from '@ionic-native/pro';
 
 @Component({
   selector: 'app-tab1',
@@ -8,8 +7,6 @@ import { Pro, AppInfo, DeployInfo } from '@ionic-native/pro';
 })
 export class Tab1Page {
 
-  constructor(private pro: Pro) { }
-
-
+  constructor() {}
 
 }
