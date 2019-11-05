@@ -1,5 +1,7 @@
 {
   "name": "TT",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
