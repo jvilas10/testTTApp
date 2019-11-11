@@ -15,15 +15,14 @@ import { Pro } from '@ionic/pro';
     public isBeta = false;
     public downloadProgress = 0;
   
-    constructor(public navCtrl: NavController) {
+    constructor() {
       this.checkChannel();
     }
-  
-    async checkChannel() {
+     async checkChannel() {
       try {
         const res = await Pro.deploy.getConfiguration();
         this.deployChannel = res.channel;
-        this.isBeta = (this.deployChannel === 'Beta')
+        this.isBeta = (this.deployChannel === 'Master');
       } catch (err) {
         // We encountered an error.
         // Here's how we would log it to Ionic Pro Monitoring while also catching:
@@ -34,7 +33,7 @@ import { Pro } from '@ionic/pro';
   
     async toggleBeta() {
       const config = {
-        channel: (this.isBeta ? 'Master' : 'Production')
+        channel: (this.isBeta ? 'Master' : 'Production');
       }
   
       try {
