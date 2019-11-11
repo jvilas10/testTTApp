@@ -9,11 +9,6 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { Pro } from '@ionic/pro';
-import { Deploy } from 'cordova-plugin-ionic';
-
-Pro.init('052fb92e', {
-  appVersion: '0.0.1'
-});
 
 @NgModule({
    declarations: [AppComponent],

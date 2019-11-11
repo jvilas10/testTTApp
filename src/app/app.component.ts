@@ -5,7 +5,7 @@ import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
 //import { Pro, AppInfo, DeployInfo } from '@ionic-native/pro';
 import { Pro} from '@ionic/pro';
-import {Deploy } from 'cordova-plugin-ionic';
+import { Deploy } from 'cordova-plugin-ionic';
 
 @Component({
   selector: 'app-root',
