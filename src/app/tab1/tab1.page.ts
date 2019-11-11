@@ -33,7 +33,7 @@ import { Pro } from '@ionic/pro';
   
     async toggleBeta() {
       const config = {
-        channel: (this.isBeta ? 'Master' : 'Production');
+        channel: (this.isBeta ? 'Master' : 'Production')
       }
   
       try {
