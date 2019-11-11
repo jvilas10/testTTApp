@@ -28,13 +28,13 @@ export class AppComponent {
   }
 
   // Get app info
-await pro.getAppInfo().then((res: AppInfo) => {
+ pro.getAppInfo().then((res: AppInfo) => {
   console.log(res)
 
 })
 
 // Get live update info
-await pro.deploy.info().then((res: DeployInfo) => {
+ pro.deploy.info().then((res: DeployInfo) => {
   console.log(res)
 })
 
