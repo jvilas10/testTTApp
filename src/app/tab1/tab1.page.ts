@@ -1,6 +1,6 @@
 // settings.ts
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+//import { NavController } from 'ionic-angular';
 
 import { Pro } from '@ionic/pro';
 
@@ -40,7 +40,7 @@ import { Pro } from '@ionic/pro';
       try {
         await Pro.deploy.configure(config);
         await this.checkChannel();
-        await this.sync({updateMethod: 'auto'}); // Alternatively, to customize how this works, use performManualUpdate()
+       // await this.sync({updateMethod: 'auto'}); // Alternatively, to customize how this works, use performManualUpdate()
       } catch (err) {
         // We encountered an error.
         // Here's how we would log it to Ionic Pro Monitoring while also catching:
