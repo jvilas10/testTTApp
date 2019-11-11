@@ -1,9 +1,4 @@
 import { Component } from '@angular/core';
-import { Pro, AppInfo, DeployInfo } from '@ionic-native/pro/ngx';
-
-
-
-
 
 @Component({
   selector: 'app-tab1',
@@ -11,7 +6,5 @@ import { Pro, AppInfo, DeployInfo } from '@ionic-native/pro/ngx';
   styleUrls: ['tab1.page.scss']
 })
 export class Tab1Page {
-
-
-
+  constructor() { }
 }

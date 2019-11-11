@@ -37,4 +37,9 @@ this.pro.deploy.info().then((res: DeployInfo) => {
   console.log(res)
 })
 
+  async changeToBetaChannel() {
+    alert('zxczxc');
+  await Deploy.configure({channel: 'production'});
+}
+
 }
