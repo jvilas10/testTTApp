@@ -28,18 +28,19 @@ export class AppComponent {
   }
 
   // Get app info
-this.pro.getAppInfo().then((res: AppInfo) => {
+await pro.getAppInfo().then((res: AppInfo) => {
   console.log(res)
+
 })
 
 // Get live update info
-this.pro.deploy.info().then((res: DeployInfo) => {
+await pro.deploy.info().then((res: DeployInfo) => {
   console.log(res)
 })
 
-  async changeToBetaChannel() {
-    alert('zxczxc');
-  await Deploy.configure({channel: 'production'});
-}
+//   async changeToBetaChannel() {
+//     alert('zxczxc');
+//   await Deploy.configure({channel: 'production'});
+// }
 
 }
