@@ -6,7 +6,7 @@ import { Pro } from '@ionic/pro';
 
 @Component({
   selector: 'page-settings',
-  templateUrl: 'settings.html'
+  templateUrl: 'tab1.page.html'
 })
 
   export class Tab1Page {
