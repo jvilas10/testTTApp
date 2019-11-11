@@ -30,6 +30,6 @@ Pro.init('052fb92e', {
 
 export class AppModule {
   
-   await Deploy.configure({channel: 'production'});
-  //} 
+  // await Deploy.configure({channel: 'production'});
+ 
 }
