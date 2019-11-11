@@ -31,7 +31,7 @@ Pro.init('052fb92e', {
 export class AppModule {
   async changeToBetaChannel() {
     alert('zxczxc');
-  await Deploy.configure({channel: 'BETA'});
+  await Deploy.configure({channel: 'production'});
 }
   // await Deploy.configure({channel: 'production'});
  
